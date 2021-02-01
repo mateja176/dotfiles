@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Autokey
+Exec=/usr/bin/autokey
+Terminal=false

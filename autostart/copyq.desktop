@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=CopyQ
+Exec=/usr/bin/copyq
+Terminal=false
