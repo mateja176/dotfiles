@@ -3,3 +3,7 @@ copyq
 redis-server
 chromium-browser
 kazam
+
+libxss1
+libappindicator1
+libindicator7
