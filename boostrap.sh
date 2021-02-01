@@ -4,6 +4,8 @@ sh ./link.sh
 
 sh ./configure.sh
 
+sh ./pre_install.sh
+
 sh ./repo_install.sh
 
 sh ./curl_install.sh
