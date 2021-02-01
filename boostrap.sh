@@ -11,3 +11,6 @@ sh ./curl_install.sh
 sh ./deb_install.sh
 
 sh ./apt_install.sh
+
+# additional installations
+sh ./install.sh
