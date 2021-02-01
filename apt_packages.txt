@@ -10,3 +10,7 @@ libindicator7
 
 software-properties-gtk
 apt-transport-https
+
+ca-certificates
+gnupg-agent
+software-properties-common
