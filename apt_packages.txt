@@ -1,0 +1,5 @@
+fonts-firacode
+copyq
+redis-server
+chromium-browser
+kazam
