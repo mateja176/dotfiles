@@ -1,0 +1,50 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "airbnb",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/typescript"
+  ],
+  "rules": {
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "object-curly-newline": "off",
+    "no-else-return": "off",
+    "no-confusing-arrow": "off",
+    "no-nested-ternary": "off",
+    "operator-linebreak": "off",
+    "function-paren-newline": "off",
+    "arrow-body-style": "off",
+    "implicit-arrow-linebreak": "off",
+    "import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
+    "@typescript-eslint/no-empty-interface": "off",
+    "react/destructuring-assignment": "off",
+    "react/jsx-filename-extension": ["error", { "extensions": ["tsx"] }],
+    "react/jsx-wrap-multilines": "off",
+    "react/prop-types": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-curly-brace-presence": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.{test,stories}.{ts,tsx}"],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
+    },
+    {
+      "files": ["**/*.test.ts", "**/features/**/*"],
+      "rules": {
+        "func-names": "off"
+      }
+    }
+  ],
+  "env": {
+    "browser": true,
+    "es6": true,
+    "jest": true
+  }
+}
