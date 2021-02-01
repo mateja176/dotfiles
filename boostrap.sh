@@ -2,6 +2,8 @@ sh ./create.sh
 
 sh ./link.sh
 
+sh ./configure.sh
+
 sh ./repo_install.sh
 
 sh ./curl_install.sh
