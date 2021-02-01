@@ -7,3 +7,6 @@ kazam
 libxss1
 libappindicator1
 libindicator7
+
+software-properties-gtk
+apt-transport-https
