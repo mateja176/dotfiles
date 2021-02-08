@@ -7,6 +7,7 @@ npm i -g \
   cross-env \
   json \
   npm-quick-run \
+  madge \
   serve \
   ngrok \
   surge \
